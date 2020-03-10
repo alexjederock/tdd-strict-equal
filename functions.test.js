@@ -1,16 +1,16 @@
 const describe = require('mocha').describe
 const it = require('mocha').it
 const expect = require('chai').expect
-const strictEqual = require('./functions')
+const strictEquals = require('.\\functions')
 
 
 describe('Functions', () => {
-    describe('strictEqual', () => {
+    describe('strictEquals', () => {
         it('checks for equality and returns a boolean', () => {
 
             const values = ('5', '5')
 
-            const val = strictEqual(values)
+            const val = strictEquals(values)
 
             expect(val).to.equal(true)
         })

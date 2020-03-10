@@ -11,7 +11,7 @@
   },
   "scripts": {
     "lint": ".\\node_modules\\.bin\\eslint --format codeframe .",
-    "test": ".\\node_modules\\.bin\\mocha tests\\*.test.js"
+    "test": ".\\node_modules\\.bin\\mocha *.test.js"
   },
   "repository": {
     "type": "git",
