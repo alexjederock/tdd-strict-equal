@@ -7,12 +7,12 @@ const strictEqual = require('./functions')
 describe('Functions', () => {
     describe('strictEqual', () => {
         it('checks for equality and returns a boolean', () => {
-            //create test data
-            const values = (5, '5')
-            //call the function
+
+            const values = ('5', '5')
+
             const val = strictEqual(values)
-            //make assertions
-            expect(val).to.equal(false)
+
+            expect(val).to.equal(true)
         })
     })
 })
