@@ -8,7 +8,7 @@ describe('Functions', () => {
     describe('strictEquals', () => {
         it('checks for equality and returns a boolean', () => {
 
-            const values = ('5', '5')
+            const values = ('a', 'a')
 
             const val = strictEquals(values)
 

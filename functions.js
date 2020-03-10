@@ -1,6 +1,9 @@
-const strictEqual = (values) => {
-    return true;
+const strictEquals = (values) => {
+    if ('a', 'a') {
+        return true;
+    } else if (a, 'a') {
+        return false;
+    }
 }
 
-
-module.exports = strictEqual
+module.exports = strictEquals
